@@ -1,6 +1,7 @@
 <?php
 
-// buat terlebih dahulu database dengan nama chatbot yang mempunyai sebuah tabel bernama chat dengan 3 field yaitu id (primary key), pertanyaan, dan jawaban. isi sesuai pertanyaan dan jawaban yang di inginkan dari bot.
+// buat terlebih dahulu database dengan nama chatbot yang mempunyai sebuah tabel bernama chat dengan 3 field yaitu id (primary key), pertanyaan, dan jawaban. 
+// isi sesuai pertanyaan dan jawaban yang di inginkan dari bot.
 
 // koneksi ke database
 $con = mysqli_connect("localhost", "root", "", "chatbot");
